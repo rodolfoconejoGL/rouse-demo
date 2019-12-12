@@ -1,13 +1,10 @@
-class Data {
-    constructor() {
-        this.basePage = '/'
-        this.baseUrl = 'https://duckduckgo.com/'
-        this.sloganText = `The search engine that doesn't track you.`
-        this.menuHeader = 'Settings'
-        this.searchTextCriteria = 'webdriver.io',
-        this.searchTextResult = 'rouseservices.io​',
-        this.backgroundColorPropertyName = 'background-color'
-    }
+module.exports = {
+    basePage: '/',
+    baseUrl: 'https://duckduckgo.com/',
+    sloganText: `The search engine that doesn't track you.`,
+    menuHeader: 'Settings',
+    searchTextCriteria: 'webdriver.io',
+    searchTextResult: 'rouseservices.io​',
+    backgroundColorPropertyName : 'background-color',
+    elementDoesNotContainMessage : 'Given element does not contain following text:'
 }
-
-module.exports = new Data()
