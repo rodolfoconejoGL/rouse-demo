@@ -40,8 +40,6 @@ npm run test -- --spec ./tests/settingsPage.test.js ./tests/searchPage.test.js -
 ```
 
 ## Project Structure
-
- .
     ├── data                    # Data or constant variables that can be re-used
     ├── pages                   # Specific page objects, page selectors, page functions
     ├── tests                   # Specific page tests
