@@ -1,0 +1,28 @@
+{
+  "name": "rouse-demo",
+  "version": "1.0.0",
+  "description": "rouse demo wdio",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "keywords": [
+    "rouse"
+  ],
+  "author": "Rodolfo Conejo",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/mocha-framework": "^5.16.15",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.16.15",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^79.0.0",
+    "wdio-chromedriver-service": "^5.0.2",
+    "webdriverio": "^5.16.15"
+  },
+  "dependencies": {
+    "@wdio/cli": "^5.16.15",
+    "@wdio/local-runner": "^5.16.15"
+  }
+}
